@@ -1,0 +1,4 @@
+model,scenario,accuracy,precision_macro,recall_macro,f1_macro,roc_auc_ovr,confusion_png,curves_png
+cnn,baseline,0.8366519613687851,0.832720850256407,0.8220300917140385,0.8249472304122092,0.962998667635968,cm_cnn_baseline.png,curves_cnn_baseline.png
+mobilenet_v2,baseline,0.7802551567902707,0.7642845029271017,0.7665411394617796,0.7652549375151575,0.9453481931322841,cm_mobilenet_v2_baseline.png,curves_mobilenet_v2_baseline.png
+resnet50,baseline,0.8610945510909741,0.8490980395531185,0.8534964651141618,0.8511671372722993,0.9642806097137118,cm_resnet50_baseline.png,curves_resnet50_baseline.png
